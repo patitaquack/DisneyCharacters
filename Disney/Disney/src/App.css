@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap');
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+}
+
+.main-card {
+  width: 700px;
+  min-height: 600px;
+  text-align: center;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(20, 20, 60, 0.85);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.25);
+}
+
+.main-card h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 4rem;
+  color: #FFD700; /* gold */
+  text-shadow:
+    3px 3px 0px #7a00cc,
+    0 0 15px #fff,
+    0 0 25px #FFD700;
+  margin-bottom: 30px;
+}
+.main-card h2 {
+  color: #7FDBFF; /* light blue */
+  font-size: 2.5rem;
+  font-family: 'Fredoka', sans-serif;
+  text-shadow: 0 0 10px white;
+}
+
+
+.attribute-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.attribute-row button,
+.discover-btn,
+.ban-button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.attribute-row button {
+  background-color: #d4af37;
+}
+
+.discover-btn {
+  margin-top: 20px;
+  background-color: #6a0dad;
+}
+
+.character-img {
+  width: 260px;
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: white;
+  padding: 10px;
+}
+
+.ban-title {
+  color: #FFD700; /* gold */
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2.5rem;
+  text-shadow:
+    0 0 8px white,
+    0 0 15px #FFD700;
+}
+
+.ban-button {
+  display: block;
+  margin: 12px auto;
+  background-color: #ff69b4;
+}
